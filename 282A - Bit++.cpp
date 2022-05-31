@@ -10,9 +10,9 @@ void solve(){
     {
         string stat;
         cin >> stat;
-        if(stat[0] == '+' || stat[1] == '+')
+        if(stat[1] == '+')
             val++;
-        else if(stat[0] == '-' || stat[1] == '-')
+        else
             val--;
     }
     cout << val;
